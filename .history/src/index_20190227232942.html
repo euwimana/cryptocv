@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="CryptoCV">
+        <meta name="author" content="Eric Serge Uwimana">
+        <title>CryptoCV</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Custom styles for this template -->
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body class="text-center">
+        <div id="wrapper">
+            {{name}}
+        </div>
+        <script src="/vendor/vue/dist/vue.min.js"></script>
+        <script>
+            var app = new Vue({
+                el: '#wrapper',
+                data: {
+                    name: 'Eric Serge Uwimana'
+                }
+            })
+        </script>
+    </body>
+</html>
