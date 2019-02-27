@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Blockchain CryptoCV dApp",
   "main": "truffle-config.js",
+  "licence": "MIT",
   "directories": {
     "test": "test"
   },
@@ -22,7 +23,7 @@
     "truffle-contract": "3.0.6"
   },
   "dependencies": {
-    "jquery": "^1.12.4",
+    "jquery": "^1.9.1",
     "popper.js": "^1.14.7"
   }
 }
